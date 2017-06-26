@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+URGENT_VALUE=25
+PACKAGE_COUNT=$(sudo apt update | grep 'All packages are up to date')
